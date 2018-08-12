@@ -15,7 +15,8 @@ body {
 ul, li {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 10pt;
-	color: #333;
+  color: #333;
+  box-sizing: border-box;
 }
 a {
 	color: orange;
@@ -33,7 +34,9 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 20px;
 }
 article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-	display: block;
+  /* display: block; */
+  display: flex;
+  flex-wrap: wrap;
 }
 #maincontent {
   background-color: #f3f3f3;
@@ -133,7 +136,7 @@ nav h1 a {
 #restaurants-list {
   background-color: #f3f3f3;
   list-style: outside none none;
-  margin: 0;
+  margin: auto;
   padding: 30px 15px 60px;
   text-align: center;
 }
@@ -145,8 +148,16 @@ nav h1 a {
   min-height: 380px;
   padding: 0 30px 25px;
   text-align: left;
-  width: 270px;
+  width: 100%;
 }
+
+/* @media screen and (min-width: 540px) {
+  header,
+  #map-container,
+  #restaurants-list li {
+  width: 100%;
+  } */
+
 #restaurants-list .restaurant-img {
   background-color: #ccc;
   display: block;

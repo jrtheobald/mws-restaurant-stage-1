@@ -20,6 +20,9 @@ body {
     margin-right: auto;
     }
 
+
+}
+
 ul, li {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 10pt;
@@ -255,6 +258,12 @@ nav h1 a {
   padding: 140px 40px 30px;
   width: 50%;
 }
+
+#restaurant-container {
+  box-sizing: border-box;
+  display: grid;
+}
+
 #reviews-container {
   padding: 30px 40px 80px;
 }

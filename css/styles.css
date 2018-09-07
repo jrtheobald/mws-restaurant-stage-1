@@ -25,12 +25,12 @@ body {
     }
 } */
 
-/* List and list items were converted to div */
-/* ul, li {
+
+ul, li {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 10pt;
   color: #333;
-} */
+}
 a {
 	color: orange;
 	text-decoration: none;
@@ -156,9 +156,13 @@ nav h1 a {
   margin: auto;
   padding: 30px 15px 60px;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   /* box-sizing: border-box; */
 }
-#restaurants-list div {
+#restaurants-list li {
   background-color: #fff;
   border: 2px solid #ccc;
   font-family: Arial,sans-serif;
@@ -178,7 +182,7 @@ nav h1 a {
   min-height: 248px;
   min-width: 100%;
 }
-#restaurants-list div h1 {
+#restaurants-list li h1 {
   color: #f18200;
   font-family: Arial,sans-serif;
   font-size: 14pt;
@@ -192,7 +196,7 @@ nav h1 a {
   margin: 0;
   font-size: 11pt;
 }
-#restaurants-list div a {
+#restaurants-list li a {
   background-color: orange;
   border-bottom: 3px solid #eee;
   color: #fff;

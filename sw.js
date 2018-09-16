@@ -1,6 +1,3 @@
-self.addEventListener('fetch', function(event) {
-    event.respondWith(caches.match(event.request));
-});
 
 self.addEventListener('install', function(event) {
     event.waitUntil(
@@ -23,10 +20,12 @@ self.addEventListener('install', function(event) {
                 '/js/main.js',
                 '/js/restaurant_info.js',
                 '/index.html',
-                '/restaurant.html',
-                'https://unpkg.com/leaflet@1.3.1/dist/leaflet.js',
-                'https://unpkg.com/leaflet@1.3.1/dist/leaflet.css'
+                '/restaurant.html'
             ]);
         })
     );
+});
+
+self.addEventListener('fetch', function(event) {
+    event.respondWith(caches.match(event.request));
 });

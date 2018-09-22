@@ -214,35 +214,51 @@ nav h1 a {
 .inside header {
   display: block;
 }
+
 .inside #map-container {
+  /* Beginning of new additions */
   display: block;
   position: relative;
   top: 30px;
+  /* End of new additions */
 }
+
 .inside #map {
+  /* Beginning of new additions */
   display: block;
   height: 250px;
+  /* End of new additions */
 }
+
 .inside #footer {
   display: block;
 }
+
 #restaurant-name {
+  /* Beginning of new additions */
   display: block;
   padding-top: 25px;
+  /* End of new additions */
 }
+
 #restaurant-img {
+  /* Beginning of new additions */
   display: block;
   max-width: 100%;
   padding: 25px 30px 25px 30px;
   border: 0.5px solid;
   box-sizing: border-box;
+  /* End of new additions */
 }
+
 #restaurant-address {
   display: block;
 }
+
 #restaurant-cuisine {
   display: block;
 }
+
 #restaurant-container, #reviews-container {
   display: block;
 }
@@ -252,27 +268,33 @@ nav h1 a {
 }
 
 #reviews-container {
+  /* I have not added anything new here */
 }
+
 #reviews-container h2 {
   display: block;
 }
+
 #reviews-list {
+  /* Beginning of new additions */
   display: block;
   background-color: #f3f3f3;
   list-style: outside none none;
   margin: auto;
   padding: 30px 15px 60px;
   text-align: center;
-  /* display: flex; */
-  /* flex-direction: row; */
-  /* flex-wrap: wrap; */
   justify-content: center;
-  /* box-sizing: border-box; */
+  /* End of new additions */
 }
+
 #reviews-list li {
+  /* I haven't added anything new here */
 }
+
 #reviews-list li p {
   text-align: left;
 }
+
 #restaurant-hours td {
+  /* I haven't added anything new here */
 }

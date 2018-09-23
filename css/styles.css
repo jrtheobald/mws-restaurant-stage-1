@@ -312,3 +312,13 @@ nav h1 a {
 #restaurant-hours td {
   /* I haven't added anything new here */
 }
+
+/* Skip Link */
+
+.skipLink {
+  position: absolute;
+  left: -999px;
+  width:1px;
+  height: 1px;
+  top: auto;
+}

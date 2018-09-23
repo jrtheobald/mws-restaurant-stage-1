@@ -11,6 +11,9 @@
 </head>
 
 <body>
+    <a id='skipLink' class='skipLink' href='#filterOptions'>
+        Skip map to restuarant filter options
+      </a>
   <header>
     <nav>
       <h1><a href="/">Restaurant Reviews</a></h1>
@@ -22,7 +25,7 @@
       <div aria-label="map" id="map"></div>
     </section>
     <section>
-      <div class="filter-options">
+      <div id="filterOptions" class="filter-options">
         <h2>Filter Results</h2>
         <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
           <option value="all">All Neighborhoods</option>

@@ -11,10 +11,13 @@
 </head>
 
 <body class="inside">
+    <a id='skipLink' class='skipLink' href='#restaurant-container'>
+        Skip map and navigation breadcrumbs to restaurant details
+      </a>
   <header>
     <nav>
       <h1><a href="/">Restaurant Reviews</a></h1>
-    <ul id="breadcrumb" >
+    <ul aria-label="breadcrumb" aria-role="navigation" id="breadcrumb" >
         <li><a href="/">Home</a></li>
       </ul>
     </nav>
@@ -22,8 +25,8 @@
   </header>
 
   <main id="maincontent">
-    <section aria-label="breadcrumb" role="navigation" id="map-container">
-      <div id="map"></div>
+    <section id="map-container">
+      <div aria-label="map" role="application" id="map"></div>
     </section>
 
     <section id="restaurant-container" tabindex="0">

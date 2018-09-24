@@ -191,6 +191,10 @@ nav h1 a {
   min-width: 100%;
 }
 
+.restaurant-img {
+  margin: 75% 0 0; /* Try this trick to maintain aspect ratio */
+}
+
 #restaurants-list li h1 {
   color: #f18200;
   font-family: Arial,sans-serif;
@@ -379,12 +383,15 @@ nav h1 a {
   }
 
   #reviews-container h2 {
-    margin: 20px auto 10px;
+    margin: auto;
   }
 }
 
+/* //TODO Add more medea queries to cover multiple
+screen sizes */
+
 /* For larger screens over 800 pixels */
 @media screen and (min-width: 801px) {
-  
+
 }
 

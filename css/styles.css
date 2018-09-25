@@ -192,7 +192,7 @@ nav h1 a {
 }
 
 .restaurant-img {
-  margin: 75% 0 0; /* Try this trick to maintain aspect ratio */
+  /* margin: 75% 0 0; Try this trick to maintain aspect ratio */
 }
 
 #restaurants-list li h1 {
@@ -392,6 +392,22 @@ screen sizes */
 
 /* For larger screens over 800 pixels */
 @media screen and (min-width: 801px) {
+  /* .inside #map-container {
+    left: 50%;
+    box-sizing: border-box;
+  } */
+
+  /* .inside #map {
+    position: relative;
+    height: 650px;
+    width: 100%;
+  } */
+
+  #restaurant-img {
+    max-width: 800px;
+    /* position: absolute; */
+    top: 122px;
+  }
 
 }
 
